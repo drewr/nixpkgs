@@ -1228,6 +1228,8 @@ let
 
   dev86 = callPackage ../development/compilers/dev86 { };
 
+  djbdns = callPackage ../tools/networking/djbdns { };
+
   dnscrypt-proxy = callPackage ../tools/networking/dnscrypt-proxy { };
 
   dnsmasq = callPackage ../tools/networking/dnsmasq { };
