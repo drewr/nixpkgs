@@ -2,7 +2,7 @@
 
 let
 
-  version = "2.3.9.0";
+  version = "2.3.10.0";
 
 in stdenv.mkDerivation rec {
 
